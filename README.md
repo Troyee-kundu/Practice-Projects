@@ -1,2 +1,2 @@
 # Practice-Projects
-This is one of my practice projects
+Here are some of my practice projects
