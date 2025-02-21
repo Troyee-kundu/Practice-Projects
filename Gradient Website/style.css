@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #42455a;
+}
+.container{
+    width: 100%;
+    height: 100%;
+   
+}
+.menu ul{
+   display: inline-flex;
+   margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 48px;
+
+}
+.active{
+    color: #7070d3 !important;
+}
+.sg_btn{
+    top: 40px;
+    right: 60px;
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+
+}
+.sg_btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 60%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: whitesmoke;
+}
+.text{
+    width: 50%;
+    float: left;
+}
+.text h1{
+    font-size: 30px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+.picture{
+    width: 50%;
+    float: right;
+}
+.picture img{
+    width: 100%;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+.play_btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.play_btn_inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+    /* from kevin */
+    display: grid;
+    place-items: center;
+    
+}
+.play_btn_inner .bx {
+    padding: 18px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #19dafa;
+    letter-spacing: 3px;
+}
+.quicklink{
+ left: 0;
+ bottom: 0;
+ position: absolute;
+ background: linear-gradient(to right,#db1bf6, #19d7f8);
+}
+.quicklink ul{
+    display: inline-flex;
+    margin: 15px auto ;
+    text-align: center;
+}
+.quicklink ul li{
+    list-style:none ;
+    margin: 0 35px;
+    cursor: pointer;
+}
+.quicklink ul li .bx{
+    font-size: 20px;
+    color: #fff;
+}
+.quicklink ul li p{
+    font-size: 10px;
+    margin-top: 15px;
+    color: #fff;
+}
+.socialicon{
+    right: 50px;
+    bottom: 25px;
+    position: absolute;
+}
+.socialicon ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+.socialicon ul li a{
+    color: #999;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
+}
