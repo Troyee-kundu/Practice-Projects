@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", serif;
+    min-height: 100vh;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e0e8ff;
+    position: relative;
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    max-width: 400px;
+    background-color: #ffff;
+    overflow: hidden;
+    border-radius: 5%;
+    
+}
+.text-container{
+    padding: 7%;
+    text-align: center;
+}
+.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 5%;
+}
+.sub-title{
+    color: #5a5c63;
+    margin-bottom: 4%;
+}
+.box{
+    background-color: hsl(228, 33%, 97%);
+    border-radius: 5%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.left-box{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.left-box div{
+    margin-left: 15px;
+}
+.left-box h5{
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 46%, 26%);
+}
+.left-box p{
+    font-size: 14px;
+}
+.right-box a{
+    color: hsl(245, 50%, 13%);
+    font-size: 16px;
+    transition: 3s ease;
+}
+.right-box a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.procced-btn{
+    display:block ;
+    text-decoration: none;
+    background-color: hsl(245, 84%, 65%);
+    padding: 15px 0;
+    border-radius: 10px;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+.procced-btn:hover{
+    background-color: rgb(8, 8, 246);
+}
+.cancle-btn{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 426px) {
+     body{
+        background-image: url(/images/pattern-background-mobile.svg);
+        
+        font-size: 12px;
+        
+     }
+
+    .container {
+        max-width: 85% ;
+    }
+    .title {
+       font-size: 24px; 
+       
+    }
+    .box {
+        padding: 12px;
+        
+    }
+    .right-box a{
+        font-size: 14px;
+    }
+    .procced-btn a {
+        font-size: 8px;
+    }
+    .left-box div{
+        margin-left: 8px;
+
+    }
+    .left-box div h5 {
+        font-size: 13px;
+    }
+    .left-box div p {
+        font-size: 12px;
+    }
+    .text-container{
+        padding: 9% 7%;
+    }
+
+}
