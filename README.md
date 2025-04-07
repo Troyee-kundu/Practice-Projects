@@ -23,11 +23,11 @@ To explore these projects locally:
    ```bash
    git clone https://github.com/Troyee-kundu/Practice-Projects.git
    
-2. ## Navigate to a Project Folder:
+2. **Navigate to a Project Folder**:
 
    cd Practice-Projects/Gradient\ Website
   
-4. ## Open the HTML File:
+4. **Open the HTML File**:
 
    Simply open the .html file in your preferred web browser to view the project.
 
